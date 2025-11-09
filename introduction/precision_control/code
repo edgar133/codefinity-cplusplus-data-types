@@ -6,7 +6,7 @@ void convertToEuro(double dollars) {
     double euros = dollars * rate;
 
     std::cout << std::fixed << std::setprecision(2)
-              << dollars << " USD = " << euros << " EUR";
+              << dollars << " USD = " << euros << " EUR" << std::endl;
 }
 
 int main() {
